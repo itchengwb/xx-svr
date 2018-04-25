@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xx-svr</artifactId>
+        <groupId>com.noriental</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xx-svr-api</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <spring.version>4.1.1.RELEASE</spring.version>
+        <velocity.version>1.7</velocity.version>
+        <velocity-tools.version>2.0</velocity-tools.version>
+        <jackson.version>2.3.0</jackson.version>
+        <jackson_asl.version>1.9.13</jackson_asl.version>
+        <new_latte_framework.version>1.0-SNAPSHOT</new_latte_framework.version>
+    </properties>
+
+    <dependencies>
+        <!--new latte3-->
+        <dependency>
+            <groupId>latte3</groupId>
+            <artifactId>new_latte_framework</artifactId>
+            <version>${new_latte_framework.version}</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
